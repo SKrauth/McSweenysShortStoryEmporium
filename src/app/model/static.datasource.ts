@@ -7,7 +7,7 @@ import "rxjs/add/observable/from";
 @Injectable()
 export class StaticDataSource {
     private products: Product[] = [
-        new Product(1, "Misadventures of a Common Box Turtle", "Fiction", 10, 2),
+        new Product(1, "Misadventures of a Common Box Turtle", "Fiction", 10, 2, "../../assets/F_10.png"),
         new Product(2, "A Day in the Life of Abraham Lincoln", "Non-Fiction", 15, 3),
         new Product(3, "A Good Deed", "Fiction", 5, 1),
         new Product(4, "Arsonists Dream", "Fiction", 10, 2),
